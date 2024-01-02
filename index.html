@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scientific calculater</title>
+    <link rel="stylesheet" href="calculater.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculater">
+            <div id="screen">
+                <p class="history"></p>
+                <input type="text" id="output" placeholder="0">
+            </div>
+        <div id="buttons">
+            <button class="button box1" onclick="pi()">&#8719</button>
+            <button class="button box2" onclick="sqrt()">&#8730</button>
+            <button class="button box3" onclick="cubrt()">&#8731</button>
+            <button class="button box4" onclick="deg()">Deg</button>
+            <button class="button box5" onclick="Rad()">Rad</button>
+            <button class="button box6" onclick="x2()">x&#178</button>
+            <button class="button box7" onclick="x3()">x&#179</button>
+            <button class="button box8" onclick="abs()">|x|</button>
+            <button class="button box9" onclick="ex()">e<sup>x</sup></button>
+            <button class="button box10" onclick="tenx()">10 <sup>x</sup></button>
+            <button class="button box11" onclick="twox()">2<sup>x</sup></button>
+            <button class="button box12" onclick="invx()">1/x</button>
+            <button class="button box13" onclick="exp()">e</button>
+            <button class="button box14" onclick="ln()">ln</button>
+            <button class="button box15" onclick="log()">log</button>
+            <button class="button box16" onclick="sin()">sin</button>
+            <button class="button box17" onclick="cos()">cos</button>
+            <button class="button box18" onclick="tan()">tan</button>
+            <button class="button box19" onclick="factorial()">n!</button>
+            <button class="button box20" onclick="percentage()">%</button>
+            <button class="button box21" onclick="asin()">sin<sup>-1</sup></button>
+            <button class="button box22" onclick="acos()">cos<sup>-1</sup></button>
+            <button class="button box23" onclick="atan()">tan<sup>-1</sup></button>
+            <button class="button box24" onclick="dis('&#40')">&#40</button>
+            <button class="button box25" onclick="dis('&#41')">&#41</button>
+        <!-- </div><br> -->
+        <!-- <div id="buttons1"> -->
+            <button class="button Btn1" onclick="dis('7')">7</button>
+            <button class="button Btn2" onclick="dis('8')">8</button>
+            <button class="button Btn3" onclick="dis('9')">9</button>
+            <button class="button Btn4" onclick="dis('&#43')">&#43</button>
+            <button class="button Btn5" onclick="del()">AC</button>
+            <button class="button Btn6" onclick="dis('4')">4</button>
+            <button class="button Btn7" onclick="dis('5')">5</button>
+            <button class="button Btn8" onclick="dis('6')">6</button>
+            <button class="button Btn9" onclick="dis('/')">/</button>
+            <button class="button Btn10" onclick="backspace()">DEL</button>
+            <button class="button Btn11" onclick="dis('1')">1</button>
+            <button class="button Btn12" onclick="dis('2')">2</button>
+            <button class="button Btn13" onclick="dis('3')">3</button>
+            <button class="button Btn14" onclick="dis('&#45')">&#45</button>
+            <button class="button Btn15" onclick="solve()">=</button>
+            <button class="button Btn16" onclick="plusMinus()">&#43/&#45</button>
+            <button class="button Btn17" onclick="dis('0')">0</button>
+            <button class="button Btn18" onclick="dis('.')">.</button>
+            <button class="button Btn19" onclick="dis('*')">x</button>
+        </div>
+        </div>
+
+    </div>
+</body>
+<script src="calculater.js"></script>
+</html>
